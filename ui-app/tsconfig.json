@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@setheum.js/api": [
+        "../api/packages/api/src"
+      ],
+      "@setheum.js/api/*": [
+        "../api/packages/api/src/*"
+      ],
+      "@setheum.js/types": [
+        "../api/packages/types/src"
+      ],
+      "@setheum.js/types/*": [
+        "../api/packages/types/src/*"
+      ],
+      "@setheum.js/api-derive": [
+        "../api/packages/api-derive/src"
+      ],
+      "@setheum.js/api-derive/*": [
+        "../api/packages/api-derive/src/*"
+      ],
+      "@setheum.js/type-definitions": [
+        "../api/packages/type-definitions/src"
+      ],
+      "@setheum.js/type-definitions/*": [
+        "../api/packages/type-definitions/src/*"
+      ],
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
