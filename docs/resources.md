@@ -54,11 +54,3 @@ These are examples of building UI and API access to substrate chains and pallets
 `Note`: The most important part of these examples is how to connect the App to the polkadot-js wallet. Once you do that, then move on to accessing the accounts and the UI generally to access the chain is going to be easy.
 
 - [Polkadot JS Cookbook](https://polkadot.js.org/docs/extension/cookbook): This is the cookbook that shows the steps on how to connect the app to the polkadot js extension, make transactions and so on, since the forked setheumjs api and the below mentioned acala js examples are essentially the same with polkadotjs then the same process in all applies.
-
-- [Acala JS Examples](https://github.com/AcalaNetwork/acala-js-example): A good start with transactions and also the polkadotjs extension is used in the examples. The UI is a simple one page js UI.
-
-- [Reef Seaweed](https://github.com/BrianCraig/reef-seaweed): A simple nft marketplace that used polkadotjs extension and transactions.
-
-- [Coral NFT Marketplace](https://github.com/boo-0x/coral-nft-marketplace): A simple (5 commits) nft marketplace that used polkadotjs extension and transactions.
-
-- [stable-asset client](https://github.com/nutsfinance/stable-asset/tree/master/demo/client): I used it as inspiration to make the sample-client.
